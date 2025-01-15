@@ -9,7 +9,7 @@ import (
 	"example.com/sut-final-lab/entity"
 )
 
-func TestPrice(t *testing.T){
+func TestValid(t *testing.T){
 	g := NewGomegaWithT(t)
 
 	t.Run("valid", func(t *testing.T){
